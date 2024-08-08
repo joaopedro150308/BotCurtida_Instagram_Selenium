@@ -1,5 +1,5 @@
 # What this project do?
-This project simplely browse a given page from instagram and
+This project simplely browse a given page from instagram and:
 
 - Give it a like.
 
@@ -10,7 +10,15 @@ This project simplely browse a given page from instagram and
 - Making that a "infinit" loop until you shutdown the program.
 
 # Technical informations
+
 - The main technologi used in this project was
-Selenium 2
+Selenium 4
+
 - Has "wait strategys" when searching for elements. That makes the automation
 harder to break.
+
+- "Wait strategys" also make the program adaptable to your computer perform
+
+    - Basically: The faster your PC if, faster the program do his things
+
+
