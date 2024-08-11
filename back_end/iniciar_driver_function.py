@@ -7,7 +7,7 @@ from selenium.common.exceptions import *
 def iniciar_driver():
     chrome_options = Options()
 
-    argumentos = ['--lang=pt-BR', '--window-size=800,600', '--incognito']
+    argumentos = ['--lang=pt-BR', '--window-size=800,600', '--incognito', 'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36']
     for argumento in argumentos:
         chrome_options.add_argument(argumento)
 
